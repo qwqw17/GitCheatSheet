@@ -8,4 +8,7 @@ git commit -- finally commits the files or folders in the staging area
 git pull origin master -- makes local repo a copy of the remote repo
 git branch <branch_name> -- initialises a new branch in repo
 git checkout <branch_name> -- shifts the pointer to branch <branch_name>
-
+git push origin <branch_name> -- initialises a pull request on remonte repo.
+git pull origin master -- makes local repo a mirror image of remote repo (ONLY USE AFTER CHECKINGOUT TO MASTER)
+git merge <branch_name> -- to merge branch "<branch_name>" to master
+git branch --delete <branch_name> -- to delete branch <branch_name>
