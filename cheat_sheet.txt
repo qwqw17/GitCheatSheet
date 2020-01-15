@@ -1,5 +1,8 @@
-cd Desktop
-cd gitproject
-git init
-touch <name>.txt
-git status -> check status of the current branch
+cd Desktop(Just example)
+cd <project_name>
+git init -- initialises a empty repo int the current dir.
+touch <name>.txt -- saves a new file at the currnet dir.
+git status -- checks status of the current branch
+git add <file or folder> -- pushes file or folder to the staging area
+git commit -- finally commits the files or folders in the staging area
+
