@@ -1,0 +1,5 @@
+cd Desktop
+cd gitproject
+git init
+touch <name>.txt
+git status -> check status of the current branch
