@@ -4,7 +4,8 @@ git init -- initialises a empty repo int the current dir.
 touch <name>.txt -- saves a new file at the currnet dir.
 git status -- checks status of the current branch
 git add <file or folder> -- pushes file or folder to the staging area
-git commit -- finally commits the files or folders in the staging area
+git add . -- pushes all files and folders in the root directory to the staging area
+git commit -m "<message>" -- finally commits the files or folders in the staging area with the <message>
 git pull origin master -- makes local repo a copy of the remote repo
 git branch <branch_name> -- initialises a new branch in repo
 git checkout <branch_name> -- shifts the pointer to branch <branch_name>
